@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".LangActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="70dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="30dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/icon"
+                android:layout_width="500dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:contentDescription="@string/icon"
+                app:srcCompat="@drawable/maa" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textlanguage1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/language1"
+                android:textColor="@color/colorSoftPink"
+                android:textSize="26sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textlanguage2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/language2"
+                android:textColor="@color/colorSoftPink"
+                android:textSize="26sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textlanguage3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/language3"
+                android:textColor="@color/colorSoftPink"
+                android:textSize="26sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:layout_margin="10dp">
+
+        <android.support.v7.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:cardBackgroundColor="@color/textColor"
+            app:cardCornerRadius="15dp"
+            app:cardElevation="10dp"
+            android:layout_margin="20dp">
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:layout_margin="20dp">
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:id="@+id/en"
+                    android:layout_margin="10sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="onRadioButtonClicked"
+                    android:text="@string/english"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="24sp"
+                    android:textStyle="bold"
+                    tools:ignore="OnClick" />
+
+
+                <RadioButton
+                    android:id="@+id/hi"
+                    android:layout_margin="10sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="onRadioButtonClicked"
+                    android:text="@string/hindi"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="24sp"
+                    android:textStyle="bold"
+                    tools:ignore="OnClick" />
+
+                <RadioButton
+                    android:id="@+id/mr"
+                    android:layout_margin="10sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="onRadioButtonClicked"
+                    android:text="@string/marathi"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="24sp"
+                    android:textStyle="bold"
+                    tools:ignore="OnClick" />
+
+                <RadioButton
+                    android:id="@+id/ta"
+                    android:layout_margin="10sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="onRadioButtonClicked"
+                    android:text="@string/tamil"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="24sp"
+                    android:textStyle="bold"
+                    tools:ignore="OnClick" />
+            </RadioGroup>
+</LinearLayout>
+        </android.support.v7.widget.CardView>
+</LinearLayout>
+
+    </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_alignParentBottom="true">
+
+    <android.support.design.widget.BottomNavigationView
+        android:id="@+id/bottom_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="@color/colorSoftPink"
+        app:menu="@menu/bottom_next">
+
+    </android.support.design.widget.BottomNavigationView>
+</LinearLayout>
+
+</RelativeLayout>

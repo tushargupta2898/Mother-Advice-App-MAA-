@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="70dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:gravity="center">
+                <TextView
+                    android:id="@+id/text1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/text1"
+                    android:textColor="@color/colorSoftPink"
+                    android:textSize="28sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_margin="40dp">
+                <TextView
+                    android:id="@+id/marriage_date"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/marriage_date"
+                    android:textColor="@color/colorSoftPink"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="3">
+                <EditText
+                    android:id="@+id/wedding_date"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:layout_weight="2.5"
+                    android:hint="@string/marriage_date_hint"
+                    android:inputType="date" />
+                <ImageView
+                    android:id="@+id/marriage_dob_img"
+                    android:layout_width="60dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.5"
+                    android:contentDescription="@string/icon"
+                    android:src="@drawable/ic_date_range_" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_margin="40dp">
+                <TextView
+                    android:id="@+id/lmp_date"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/lmp_date"
+                    android:textColor="@color/colorSoftPink"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="3">
+                <EditText
+                    android:id="@+id/lmp_hint_date"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:layout_weight="2.5"
+                    android:hint="@string/lmp_hint_date"
+                    android:inputType="date" />
+                <ImageView
+                    android:id="@+id/lmp_dob_img"
+                    android:layout_width="60dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.5"
+                    android:contentDescription="@string/icon"
+                    android:src="@drawable/ic_date_range_" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true">
+        <android.support.design.widget.BottomNavigationView
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_alignParentBottom="true"
+            android:id="@+id/bottom_navigation"
+            app:menu="@menu/bottom_previous_next"
+            android:background="@color/colorSoftPink">
+        </android.support.design.widget.BottomNavigationView>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ANMRegistration">
+
+    <include
+        android:id="@+id/app_bar"
+        layout="@layout/app_bar">
+
+    </include>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="70dp"
+        android:layout_marginTop="70dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:gravity="center"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10sp"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="24sp"
+                    android:text="GOVERNMENT SCHEMES"
+                    android:textStyle="bold"/>
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:clickable="true"
+                    android:id="@+id/scheme1"
+                    android:foreground="?android:attr/selectableItemBackground">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="84dp"
+                            android:layout_height="84dp"
+
+                            android:background="@drawable/squaregreen"
+                            android:padding="10dp"
+                            android:src="@drawable/matru" />
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/doctext2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Pradhan Mantri Matritva Vandana Yojana"
+                                android:textSize="24dp"
+                                android:layout_marginTop="10dp"
+                                android:textStyle="bold" />
+
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:clickable="true"
+                    android:id="@+id/scheme2"
+                    android:foreground="?android:attr/selectableItemBackground">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="84dp"
+                            android:layout_height="84dp"
+                            android:background="@drawable/squarepurple"
+                            android:padding="10dp"
+                            android:src="@drawable/janani" />
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/doctext1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="10dp"
+                                android:text="Noni Suraksha Yojana"
+                                android:textSize="24dp"
+                                android:textStyle="bold" />
+
+
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true">
+        <android.support.design.widget.BottomNavigationView
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:id="@+id/bottom_navigation"
+            app:menu="@menu/bottom_previous_next"
+            android:background="@color/colorSoftPink">
+        </android.support.design.widget.BottomNavigationView>
+    </LinearLayout>
+
+</RelativeLayout>

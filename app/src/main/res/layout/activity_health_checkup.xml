@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HealthCheckup">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:gravity="center">
+            <TextView
+                android:id="@+id/check_up"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/health_checkup"
+                android:textColor="@color/colorSoftPink"
+                android:textSize="28sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10sp"
+                android:gravity="start"
+                android:layout_marginTop="20dp">
+                <TextView
+                    android:id="@+id/reg_date"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/date_of_checkup"
+                    android:textColor="@color/colorSoftPink"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:weightSum="2">
+            <EditText
+                android:layout_weight="1"
+                android:id="@+id/check_up_hint_date"
+                android:layout_width="190dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/check_up_hint_date"
+                android:inputType="date" />
+
+            <ImageView
+                android:layout_weight="1"
+                android:id="@+id/check_up_img"
+                android:layout_width="wrap_content"
+                android:layout_height="43dp"
+                android:contentDescription="@string/icon"
+                android:src="@drawable/ic_date_range_" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10sp"
+            android:gravity="start"
+            android:layout_marginTop="20dp">
+            <TextView
+                android:id="@+id/weight_mother"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/weight_of_mother"
+                android:textColor="@color/colorSoftPink"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="10dp">
+            <EditText
+                android:layout_weight="1"
+                android:id="@+id/check_up_hint_weight"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:ems="10"
+                android:hint="@string/weight_hint_checkup"
+                android:inputType="number" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10sp"
+            android:gravity="start"
+            android:layout_marginTop="20dp">
+            <TextView
+                android:id="@+id/sys_bp_mother"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/sys_bp_of_mother"
+                android:textColor="@color/colorSoftPink"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="10dp">
+            <EditText
+                android:layout_weight="1"
+                android:id="@+id/check_up_hint_sys_bp_hint"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:ems="10"
+                android:hint="@string/sys_bp_of_mother_hint"
+                android:inputType="number" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10sp"
+            android:gravity="start"
+            android:layout_marginTop="20dp">
+            <TextView
+                android:id="@+id/dia_bp_mother"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/dia_bp_of_mother"
+                android:textColor="@color/colorSoftPink"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="10dp">
+            <EditText
+                android:layout_weight="1"
+                android:id="@+id/check_up_hint_dia_bp_hint"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:ems="10"
+                android:hint="@string/dia_bp_of_mother_hint"
+                android:inputType="number" />
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true">
+
+        <Button
+            android:id="@+id/btnsubmit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorSoftPink"
+            android:text="@string/checkup_submit"
+            android:textStyle="bold"
+            android:textSize="24sp"/>
+    </LinearLayout>
+</RelativeLayout>

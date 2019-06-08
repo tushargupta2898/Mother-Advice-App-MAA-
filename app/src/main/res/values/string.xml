@@ -1,0 +1,339 @@
+<resources>
+    <string name="app_name">MAA</string>
+    <string name="mother_advice_app">Mother Advice App</string>
+    <string name="motheradviceapp"> Mother Advice App</string>
+    <string name="english">ENGLISH</string>
+    <string name="hindi">हिंदी</string>
+    <string name="who_you_are"> CHOOSE WHO ARE YOU</string>
+    <string name="language1">CHOOSE LANGUAGE</string>
+    <string name="language2">भाषा चुनें</string>
+    <string name="language3">भाषा निवडा</string>
+    <string name="guardian">GUARDIAN</string>
+    <string name="anm">ANM</string>
+    <string name="angwadi">Angadwadi</string>
+    <string name="user_id">User ID</string>
+    <string name="are_you">ARE YOU</string>
+    <string name="planning">PLANNING</string>
+    <string name="pregnant">PREGNANT</string>
+    <string name="parent">PARENT</string>
+    <string name="icon">icon</string>
+    <string name="emergency">EMERGENCY CALL</string>
+    <string name="text_to_speech">TEXT TO SPEECH</string>
+    <string-array name="blood">
+        <item>A+</item>
+        <item>A-</item>
+        <item>B+</item>
+        <item>B-</item>
+        <item>O+</item>
+        <item>O-</item>
+        <item>AB+</item>
+        <item>AB-</item>
+    </string-array>
+    <string name="aadar_card">आधार कार्ड</string>
+    <string name="phonenum">Phone Number</string>
+    <string name="otphint">OTP</string>
+
+    <string name="pregnant_info_no1">Aadhar Number</string>
+    <string name="pregnant_info_no1_hint">Enter Adahar Number of Mother</string>
+    <string name="pregnant_address">Address</string>
+    <string name="pregnant_address_hint">Enter Your Address</string>
+    <string name="pregnant_income">Family Income</string>
+    <string name="mother_name">Mother Name</string>
+    <string name="mother_name_hint">Enter Mother Namer</string>
+    <string name="father_name">Father Name</string>
+    <string name="father_name_hint">Enter Father Name</string>
+
+
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+    <string name="sprintjobsicon">TODO</string>
+
+    <string name="e_mail">E-mail</string>
+
+    <string name="username">Username</string>
+
+    <string name="signup">SIGN UP/LOGIN</string>
+
+    <string name="login">LOGIN</string>
+
+    <string name="register_here">Already have a account?LOGIN</string>
+
+    <string name="guestlogin">LOGIN as a guest.</string>
+
+    <string name="Dont_have">Create a new account,SIGNUP</string>
+
+    <string name="title_activity_login">Sign in</string>
+
+    <string name="forget_password">Forget Password?</string>
+
+    <!-- Strings related to login -->
+
+
+    <string name="prompt_email">Email</string>
+
+    <string name="prompt_password">Password</string>
+
+    <string name="action_sign_in">Sign in or register</string>
+
+    <string name="action_sign_in_short">Sign in</string>
+
+    <string name="error_invalid_email">This email address is invalid</string>
+
+    <string name="error_invalid_password">This password is too short</string>
+
+    <string name="error_incorrect_password">This password is incorrect</string>
+
+    <string name="error_field_required">This field is required</string>
+
+    <string name="permission_rationale">"Contacts permissions are needed for providing emailcompletions." </string>
+
+    <string name="text1">General Information</string>
+    <string name="wife_name">Wife\'s Name</string>
+    <string name="husband_name">Husband\'s Name</string>
+    <string name="wife_name_hint">Enter Wife\'s Name</string>
+    <string name="wife_dob_hint">Enter Wife\'s DOB</string>
+    <string name="husband_dob_hint">Enter Husband\'s DOB</string>
+    <string name="husband_name_hint">Enter Husband\'s Name</string>
+    <string name="wife_dob">Date Of Birth</string>
+    <string name="marriage_date">Marriage Date</string>
+    <string name="marriage_date_hint">Enter Your Marriage Date</string>
+    <string name="lmp_date">Last Period Date</string>
+    <string name="lmp_hint_date">Enter Last Period Date</string>
+    <string name="text2">Health Information</string>
+    <string name="height">Height Of Wife(in cms)</string>
+    <string name="weight">Weight Of Wife(in kg)</string>
+    <string name="height_hint">Enter Height Of Wife(in cms)</string>
+    <string name="weight_hint">Enter Weight Of Wife(in kg)</string>
+    <string name="health">Health Concerns</string>
+    <string name="health_concern_1">Anaemia</string>
+    <string name="health_concern_2">Diabetes</string>
+    <string name="health_concern_3">High/Low Blood Pressure</string>
+    <string name="health_concern_4">Don\'t Know</string>
+
+    <string name="income_first">Below Poverty Line</string>
+
+    <string name="income_second">Above Poverty Line</string>
+
+    <string name="contact">Contact Number</string>
+
+    <string name="contact_hint">Enter Contact Number</string>
+
+    <string name="persons_contact">Whose Contact Number is this?</string>
+
+    <string name="myself">Myself</string>
+
+    <string name="husband">Husband</string>
+
+    <string name="relative">Relative</string>
+
+    <string name="neighbour">Neighbour</string>
+
+    <string name="category">Category</string>
+
+    <string name="gen">General</string>
+
+    <string name="obc">OBC</string>
+
+    <string name="sc">SC</string>
+    <string name="st">ST</string>
+
+    <string name="rel">Religion</string>
+
+    <string name="hin">Hindu</string>
+
+    <string name="mus">Muslim</string>
+
+    <string name="sik">Sikh</string>
+
+    <string name="chris">Christian</string>
+
+    <string name="reg_date">Registration Date</string>
+
+    <string name="reg_hint_date">Enter Registration Date</string>
+
+    <string name="weeks">Current Pregnancy Week</string>
+
+    <string name="curr_hint">Weeks</string>
+
+    <string name="weight_hint_m">Weight(in kg)</string>
+
+    <string name="dod">Expected Date of Delivery/Date of Delivery</string>
+
+    <string name="dod_hint">Enter Expected Date of Delivery</string>
+
+    <string name="blodd_group">Blood Group</string>
+
+    <string name="disease_suffering">Present Diseases</string>
+
+    <string name="diseases_hint">Enter name of diseases from which mother is suffering</string>
+
+    <string name="nop">Total Number of Pregnancy</string>
+
+    <string name="nop_hint">Enter number of previous pregnancies</string>
+
+    <string name="prev">Previous Pregnancy Information</string>
+
+    <string name="com_code">Complexity Code</string>
+
+    <string name="com_code_hint">Enter complexity code</string>
+
+    <string name="dev_result_code">Delivery Result Code</string>
+
+    <string name="result_alive">Alive</string>
+
+    <string name="result_dead">Dead</string>
+
+    <string name="bef_prev">Before Previous Pregnancy Information</string>
+
+    <string name="hospital">Preferred Hospital During Pregnancy</string>
+
+    <string name="hospital_code">Hospital\'s Code</string>
+
+    <string name="hospital_name">Hospital\'s Name</string>
+
+    <string name="hospital_code_hint">Enter Hospital\'s Code</string>
+
+    <string name="hospital_name_hint">Enter Hospital\'s Name</string>
+
+    <string name="hospital_addr_hint">Enter Hospital\'s Address</string>
+
+    <string name="hospital_addr">Hospital\'s Address</string>
+
+    <string name="vdrl_test">VDRL(RPR) Test</string>
+
+    <string name="hiv_test">HIV Test</string>
+
+    <string name="sickling_test">Sickling Test</string>
+
+    <string name="positve">Positive</string>
+
+    <string name="negative">Negative</string>
+
+    <string name="not_tested">Not Tested</string>
+
+    <string name="parent_aadhar">Enter Aadhar Number</string>
+    <string name="parent_type">What are you?</string>
+    <string name="parent_type_one">Mother</string>
+    <string name="parent_type_two">Father</string>
+    <string name="parent_name">Name of parent</string>
+    <string name="parent_name_hint">Enter your name</string>
+    <string name="delivery_date">Date of Delivery</string>
+    <string name="del_hint">Enter Date of Delivery</string>
+    <string name="mother_health">Health details of Mother</string>
+    <string name="mother_wgt_hint">Enter Mother\'s Weight(in kg)</string>
+    <string name="systolic_bp">Systolic Blood Pressure</string>
+    <string name="diastolic_bp">Diastolic Blood Pressure</string>
+    <string name="systolic_bp_hint">Enter Mother\'s Systolic Blood Pressure</string>
+    <string name="diastolic_bp_hint">Enter Mother\'s Diastolic Blood Pressure</string>
+    <string name="child_health">Health details of Baby</string>
+    <string name="child_wgt">Weight Of Baby(in kg)</string>
+    <string name="child_wgt_hint">Enter Baby\'s Weight(in kg)</string>
+    <string name="child_height">Height Of Baby(in cms)</string>
+    <string name="child_height_hint">Enter Baby\'s Height(in cm)</string>
+    <string name="child_vacc">Vaccinations given to the baby</string>
+    <string name="vacc1">BCG Vaccine</string>
+    <string name="vacc2">DPT Vaccine</string>
+    <string name="vacc3">Polio Vaccine</string>
+    <string name="vacc4">Measles Vaccine</string>
+    <string name="weight_m">Weight of Mother(in KGs)</string>
+    <string name="app_name_1">Nine columns in this section depict
+Months of Pregnancy with pictures of
+pregnant women.</string>
+    <string name="app_name_2">The first column corresponds with the
+first month of pregnancy, the second
+with the second month of pregnancy and
+so on…</string>
+    <string name="app_name_3">A pregnant woman must have her blood pressure checked at each visit.</string>
+    <string name="app_name_4">A pregnant woman must take one iron tablet a day for at least 3 months.
+She must take at least 100 tablets.
+</string>
+    <string name="health_checkup">Health Check-Up</string>
+
+    <string name="date_of_checkup">Date of Health Check-Up</string>
+
+    <string name="check_up_hint_date">Enter date of check-up</string>
+
+    <string name="weight_of_mother">Weight of Mother</string>
+
+    <string name="weight_hint_checkup">Enter Weight of Mother</string>
+
+    <string name="sys_bp_of_mother">Systolic Blood Pressure</string>
+
+    <string name="sys_bp_of_mother_hint">Enter Systolic Blood Pressure</string>
+
+    <string name="dia_bp_of_mother">Diastolic Blood Pressure</string>
+
+    <string name="dia_bp_of_mother_hint">Enter Diastolic Blood Pressure</string>
+
+    <string name="checkup_submit">Submit</string>
+    <string name="skip_1">SKIP HOMEPAGE</string>
+    <string name="new_registration_1">New Registration</string>
+    <string name="regi_mom">Registered Mother</string>
+    <string name="user_id_1">User ID</string>
+    <string name="mom_suggestion">Register Mother Who is not yet registered?</string>
+    <string name="mom_register_1">Registered Mother</string>
+    <string name="gov_schme">GOVERNMENT SCHEMES</string>
+    <string name="yojna_1">Pradhan Mantri Matritva Vandana Yojana</string>
+    <string name="yojna_2">Noni Suraksha Yojana</string>
+    <string name="doc_help">Doctor Helpline</string>
+    <string name="gynao_help">Gynecologist Helpline number</string>
+    <string name="doc_help_1">Doctor Helpline</string>
+    <string name="child_special">Child Specialist Helpline number</string>
+    <string name="anm_helpline">ANM Helpline</string>
+    <string name="help_line_1">Helpline number of ANM of your locality</string>
+    <string name="help_line_2">Anganwadi Helpline</string>
+    <string name="help_line_3">Helpline number of your near by Anganwadi</string>
+    <string name="congu_1">Congratulation Baby is coming in ___</string>
+    <string name="vedio_tu_1">Video Tutorial</string>
+    <string name="vedio_tu_2">Check Daily Video Tutorial</string>
+    <string name="govt_schme">Govt.Scheme</string>
+    <string name="check_aadar">Check Government Scheme on basis of Aadhar</string>
+    <string name="help_line">Helpline</string>
+    <string name="help_line_4">Check Helpline Numbers here</string>
+    <string name="diet_chart_1">Diet Chart</string>
+    <string name="check_diet">Check Diet Chart on Basis of Trimesters</string>
+    <string name="tips_tricks">Tips And Advices</string>
+    <string name="immunity">Immunity</string>
+    <string name="baby_health_care">Baby Health Carre</string>
+    <string name="check_gov">Check Government Scheme on basis of Aadhar</string>
+    <string name="fertile_date">Your Fertile Date is _ to __</string>
+    <string name="form_4">Form 4</string>
+    <string name="curr_preg_week">Current Pregnant Week</string>
+    <string name="state_name">state name</string>
+    <string name="district_name">district name</string>
+    <string name="area_name">area name</string>
+    <string name="get_otp">GET OTP</string>
+    <string name="resend_otp">Resend OTP</string>
+    <string name="name">NAME</string>
+    <string name="complete">complete</string>
+    <string name="verfied">verified</string>
+    <string name="anganwadi_ji">anganwadi</string>
+    <string name="complete_verify">Complete/Verify Form</string>
+    <string name="health_checkup_1">Health Checkup</string>
+    <string name="aadhar_11">AADHAR</string>
+    <string name="women_check">Women Check</string>
+    <string name="yojna_3">"-Nearly 39,870 daughters have been registered in Chhattisgarh under ‘Noni Suraksha Yojana’ in last quarters to three years, officials said on Saturday.This scheme was launched by Women and Child Development Department of State Government on April 1, 2014. Under this scheme, an account in life Insurance Corporation of India is opened in the name of each beneficiary daughter and Rs 5,000 is deposited in this account every year for five years.
+-Beneficiary daughter can withdraw the amount of one lakh, if she is not married till the age of 18 years and has completed education till 12th standard.This scheme is for families of Below Poverty line (BPl). Those daughters are being covered under the scheme, who were born after April 1, 2014.Main objective of the scheme is to prevent female feticide, build positive mindset towards birth of daughters, lay strong foundation for bright future of daughters, to stop child marriage, and to improve the status of education and health facilities for them.
+-Women and Child Development Department Officials said on Saturday that 3,748 daughters of Rajnandgaon, 2,703 daughters of Raipur district, 2,525 daughters of Balodabazar-Bhatapara district, 2,499 daughters of Mahasamund district, 2,456 daughters of Balrampur-Ramanujganj district, 2,243 daughters of Janjgir-Champa district, 2,428 daughters of Durg district, 2,202 daughters of Balod district, 2,033 daughters of Raigarh district, 1,751 daughters of Bilaspur district,  1,461 daughters of Surguja district, 1,557 daughters of Mungeli district, 1,349 daughters of Dhamtari district, 1,377 daughters in Korba district, 1,374 daughters of Kabeerdham district, 1,100 daughters of Jashpur district, 1,033 daughters of Koriya district, 977 daughters of South Bastar (Dantewada) district, 733 daughters of Bemetara district, 608 daughters of Sukma district, 583 daughters of North Bastar (Kanker) district, 506 daughters of Surajpur district, 93 daughters of Narayanpur district, and 82 daughters of Bijapur district have been registered under the scheme."</string>
+    <string name="yojna_4">Pradhan Mantri Matritva Vandana Yojana</string>
+    <string name="yojna_5">"Pradhan Mantri Matru Vandana Yojana  (PMMVY) is a Maternity Benefit Programme that is implemented in all the districts of the country in accordance with the provision of the National Food Security Act, 2013.
+       1).Cash incentive of Rs 5000 in three instalments i.e. first instalment of Rs 1000/ - on early registration of pregnancy at the Anganwadi Centre (AWC) / approved Health facility as may be identified by the respective administering State / UT, second instalment of Rs 2000/ - after six months of pregnancy on receiving at least one ante-natal check-up (ANC) and third instalment of Rs 2000/ - after child birth is registered and the child has received the first cycle of BCG, OPV, DPT and Hepatitis - B, or its equivalent/ substitute.
+
+2).The eligible beneficiaries would receive the incentive given under the Janani Suraksha Yojana (JSY) for Institutional delivery and the incentive received under JSY would be accounted towards maternity benefits so that on an average a woman gets Rs 6000 / -</string>
+    <string name="apply">APPLY NOW</string>
+    <string name="wrong_verification_code_alert">You have entered the wrong verification code</string>
+    <string name="ph_number_empty_alert">Ph number can not be empty</string>
+    <string name="otp_blank_alert">otp number can not be empty</string>
+    <string name="otp_send_message">verification code sent to your entered mobile number! please check</string>
+    <string name="sms_qutoa_exceeded_alert">The SMS quota for the project has been exceeded</string>
+    <string name="please_wait">Please wait</string>
+    <string name="phone_number_successfully_verified_thankyou">Phone Number successfully verified!! Thankyou</string>
+    <string name="marathi">मराठी</string>
+    <string name="First">First Trimester</string>
+    <string name="Second">Second Trimester</string>
+    <string name="Third">Third Trimester</string>
+    <string name="diet">Diet PLan</string>
+    <string name="tamil">தமிழ்</string>
+
+
+</resources>

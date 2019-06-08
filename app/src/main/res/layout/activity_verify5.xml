@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="70dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_margin="10sp">
+                <TextView
+                    android:id="@+id/text1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/text1"
+                    android:textColor="@color/colorSoftPink"
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginHorizontal="10sp"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/income"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/pregnant_income"
+                    android:textColor="@color/colorSoftPink"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10sp">
+
+                <RadioGroup
+                    android:id="@+id/radioGroup2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <RadioButton
+                        android:id="@+id/bpl"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/income_first"
+                        android:textColor="@color/colorSoftPink"
+                        android:textSize="22sp"
+                        tools:ignore="OnClick"
+                        android:layout_marginVertical="10sp"/>
+
+                    <RadioButton
+                        android:id="@+id/apl"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/income_second"
+                        android:textColor="@color/colorSoftPink"
+                        android:textSize="22sp"
+                        tools:ignore="OnClick" />
+                </RadioGroup>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10sp"
+                android:gravity="center">
+                <TextView
+                    android:id="@+id/wife_dob"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/wife_dob"
+                    android:textColor="@color/colorSoftPink"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10sp"
+                android:weightSum="2">
+
+                <EditText
+                    android:layout_weight="1"
+                    android:id="@+id/wife_dob2"
+                    android:layout_width="189dp"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="@string/wife_dob_hint"
+                    android:inputType="date" />
+
+                <ImageView
+                    android:layout_weight="1"
+                    android:id="@+id/dob_img"
+                    android:layout_width="wrap_content"
+                    android:layout_height="43dp"
+                    android:contentDescription="@string/icon"
+                    android:src="@drawable/ic_date_range_" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10sp"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/lmp_date"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/lmp_date"
+                    android:textColor="@color/colorSoftPink"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10sp"
+                android:weightSum="2">
+
+                <EditText
+                    android:layout_weight="1"
+                    android:id="@+id/lmp_hint_date"
+                    android:layout_width="190dp"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="@string/lmp_hint_date"
+                    android:inputType="date" />
+
+                <ImageView
+                    android:layout_weight="1"
+                    android:id="@+id/lmp_date_img"
+                    android:layout_width="wrap_content"
+                    android:layout_height="43dp"
+                    android:contentDescription="@string/icon"
+                    android:src="@drawable/ic_date_range_" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10sp"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/weeks_date"
+                    android:layout_width="275dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/weeks"
+                    android:textColor="@color/colorSoftPink"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10sp">
+                <EditText
+                    android:id="@+id/curr_hint"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="@string/curr_hint"
+                    android:inputType="number" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10sp"
+                android:gravity="center">
+                <TextView
+                    android:id="@+id/weight"
+                    android:layout_width="260dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/weight"
+                    android:textColor="@color/colorSoftPink"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10sp">
+
+                <EditText
+                    android:id="@+id/wgt_hint"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="@string/weight_hint_m"
+                    android:inputType="number" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+        <android.support.design.widget.BottomNavigationView
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:id="@+id/bottom_navigation"
+            app:menu="@menu/bottom_previous_next"
+            android:background="@color/colorSoftPink">
+        </android.support.design.widget.BottomNavigationView>
+    </LinearLayout>
+
+
+</RelativeLayout>

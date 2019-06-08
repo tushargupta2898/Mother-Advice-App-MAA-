@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ANMRegistration">
+
+    <include
+        android:id="@+id/app_bar"
+        layout="@layout/app_bar">
+
+    </include>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:layout_marginBottom="70dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/newregistration"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:clickable="true"
+                    android:foreground="?android:attr/selectableItemBackground">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="114dp"
+                            android:layout_height="114dp"
+                            android:layout_marginTop="10dp"
+                            android:background="@drawable/squaregreen"
+                            android:padding="20dp"
+                            android:src="@drawable/newregister" />
+
+                        <TextView
+                            android:id="@+id/vidtext"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:text="New Registration"
+                            android:textSize="20dp"
+                            android:textStyle="bold" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_margin="10dp"
+                            android:background="@color/colorGrey" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:gravity="center"
+                            android:padding="5dp"
+                            android:text="Register Mother Who is not yet registered"
+                            android:textColor="@android:color/darker_gray"
+                            android:textSize="16dp"
+                            android:textStyle="bold|italic" />
+
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:clickable="true"
+                    android:id="@+id/highriskmom"
+                    android:foreground="?android:attr/selectableItemBackground">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="114dp"
+                            android:layout_height="114dp"
+                            android:layout_marginTop="10dp"
+                            android:background="@drawable/squarepurple"
+                            android:padding="20dp"
+                            android:src="@drawable/highriskimg" />
+
+                        <TextView
+                            android:id="@+id/highriskbtn"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:text="High Risk Mothers"
+                            android:textSize="20dp"
+                            android:textStyle="bold" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_margin="10dp"
+                            android:background="@color/colorGrey" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:padding="5dp"
+                            android:layout_margin="5dp"
+                            android:textSize="16dp"
+                            android:textStyle="bold|italic"
+                            android:text="Display List of Registered high risk mothers"
+                            android:textColor="@android:color/darker_gray" />
+
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/registeredmom"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:clickable="true"
+                    android:foreground="?android:attr/selectableItemBackground">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="114dp"
+                            android:layout_height="114dp"
+                            android:layout_marginTop="10dp"
+                            android:background="@drawable/squareyellow"
+                            android:padding="10dp"
+                            android:src="@drawable/registeredmaa" />
+
+                        <TextView
+                            android:id="@+id/govtscheme"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:text="Registered Mother"
+                            android:textSize="20dp"
+                            android:textStyle="bold" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_margin="10dp"
+                            android:background="@color/colorGrey" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:gravity="center"
+                            android:padding="5dp"
+                            android:text="Form Completion/Verification and Regular Checkup of registered mother"
+                            android:textColor="@android:color/darker_gray"
+                            android:textSize="16dp"
+                            android:textStyle="bold|italic" />
+
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true">
+        <android.support.design.widget.BottomNavigationView
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:id="@+id/bottom_navigation"
+            app:menu="@menu/homepagemenu"
+            android:background="@color/colorSoftPink">
+        </android.support.design.widget.BottomNavigationView>
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="39dp"
+        android:layout_marginStart="39dp"
+        android:layout_marginTop="60dp"
+        android:text="General Information"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="88dp"
+        android:layout_height="39dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="120dp"
+        android:text="Name"
+        tools:ignore="UnknownId"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="19dp" />
+
+    <EditText
+        android:layout_width="146dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/tv2"
+        android:layout_alignStart="@+id/editText5"
+        android:layout_alignLeft="@+id/editText5"
+        android:id="@+id/editText2"
+        tools:ignore="NotSibling,UnknownId" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="146dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="50dp"
+        android:layout_marginTop="201dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="50dp"
+       />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="87dp"
+        android:layout_height="32dp"
+        android:layout_alignStart="@+id/tv2"
+        android:layout_alignTop="@+id/editText3"
+        android:text="TextView"
+        android:layout_alignLeft="@+id/tv2" />
+    <EditText
+        android:id="@+id/edittext"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/button"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="61dp"
+        android:ems="10"
+        android:text=""
+        android:inputType="text"
+        tools:ignore="UnknownId" />
+
+</RelativeLayout>

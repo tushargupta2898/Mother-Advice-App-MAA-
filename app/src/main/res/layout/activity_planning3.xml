@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="70dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:gravity="center">
+            <TextView
+                android:id="@+id/text3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/text2"
+                android:textColor="@color/colorSoftPink"
+                android:textSize="28sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_margin="10dp">
+
+            <TextView
+                android:id="@+id/height"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/height"
+                android:textColor="@color/colorSoftPink"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="10dp">
+            <EditText
+                android:id="@+id/height_wife"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:ems="10"
+                android:hint="@string/height_hint"
+                android:inputType="number" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_margin="10dp">
+
+            <TextView
+                android:id="@+id/weight"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/weight"
+                android:textColor="@color/colorSoftPink"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="10dp">
+
+            <EditText
+                android:id="@+id/weight_wife"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:ems="10"
+                android:hint="@string/weight_hint"
+                android:inputType="number" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_margin="10dp">
+            <TextView
+                android:id="@+id/health_concern"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/health"
+                android:textColor="@color/colorSoftPink"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical">
+
+            <CheckBox
+                android:id="@+id/checkBox1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorSoftPink"
+                android:layout_margin="10dp"
+                android:text="@string/health_concern_1" />
+
+            <CheckBox
+                android:id="@+id/checkBox2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:textColor="@color/colorSoftPink"
+                android:text="@string/health_concern_2" />
+
+            <CheckBox
+                android:id="@+id/checkBox3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:textColor="@color/colorSoftPink"
+                android:text="@string/health_concern_3" />
+
+            <CheckBox
+                android:id="@+id/checkBox4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:textColor="@color/colorSoftPink"
+                android:text="@string/health_concern_4" />
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true">
+        <android.support.design.widget.BottomNavigationView
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_alignParentBottom="true"
+            android:id="@+id/bottom_navigation"
+            app:menu="@menu/bottom_previous_next"
+            android:background="@color/colorSoftPink">
+        </android.support.design.widget.BottomNavigationView>
+    </LinearLayout>
+
+</RelativeLayout>

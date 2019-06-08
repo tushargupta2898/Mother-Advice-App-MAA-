@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="70sp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:gravity="center">
+        <TextView
+            android:id="@+id/parent_text2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/child_health"
+            android:textColor="@color/colorSoftPink"
+            android:textSize="28sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:gravity="center">
+        <TextView
+            android:id="@+id/weight_baby"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/child_wgt"
+            android:textColor="@color/colorSoftPink"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:gravity="center">
+            <EditText
+                android:id="@+id/wgt_hint_baby"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/child_wgt_hint"
+                android:inputType="number" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:gravity="center">
+            <TextView
+                android:id="@+id/height_baby"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/child_height"
+                android:textColor="@color/colorSoftPink"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:gravity="center">
+            <EditText
+                android:id="@+id/height_hint_baby"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/child_height_hint"
+                android:inputType="number" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:gravity="center">
+            <TextView
+                android:id="@+id/vac_baby"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/child_vacc"
+                android:textColor="@color/colorSoftPink"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical">
+
+            <CheckBox
+                android:id="@+id/checkBox1_vaac"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorSoftPink"
+                android:layout_margin="10dp"
+                android:text="@string/vacc1" />
+
+            <CheckBox
+                android:id="@+id/checkBox2_vacc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:textColor="@color/colorSoftPink"
+                android:text="@string/vacc2" />
+
+            <CheckBox
+                android:id="@+id/checkBox3_vacc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:textColor="@color/colorSoftPink"
+                android:text="@string/vacc3" />
+            <CheckBox
+                android:id="@+id/checkBox4_vacc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:textColor="@color/colorSoftPink"
+                android:text="@string/vacc4" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+    </ScrollView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true">
+        <android.support.design.widget.BottomNavigationView
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:id="@+id/bottom_navigation"
+            app:menu="@menu/bottom_previous_next"
+            android:background="@color/colorSoftPink">
+        </android.support.design.widget.BottomNavigationView>
+    </LinearLayout>
+</RelativeLayout>

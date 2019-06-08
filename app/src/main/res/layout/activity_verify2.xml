@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="70dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_margin="20sp">
+                <TextView
+                    android:id="@+id/text1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/text1"
+                    android:textColor="@color/colorSoftPink"
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_marginHorizontal="10sp"
+                android:weightSum="2">
+
+
+                <TextView
+                    android:id="@+id/wife_name"
+                    android:layout_width="176dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/mother_name"
+                    android:textColor="@color/colorSoftPink"
+                    android:textSize="24sp"
+                    android:layout_weight="1"
+                    android:textStyle="bold" />
+                <ImageView
+                    android:id="@+id/preg_mother"
+                    android:layout_width="52dp"
+                    android:layout_height="47dp"
+                    android:layout_weight="1"
+                    android:contentDescription="@string/icon"
+                    android:src="@drawable/pregnant" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10sp">
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/mother_name_hint"
+                    android:id="@+id/M_Name"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_marginHorizontal="10sp"
+                android:weightSum="2">
+
+                <TextView
+                    android:layout_weight="1"
+                    android:id="@+id/husb_name"
+                    android:layout_width="176dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/father_name"
+                    android:textColor="@color/colorSoftPink"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/preg_father"
+                    android:layout_width="52dp"
+                    android:layout_height="47dp"
+                    android:layout_weight="1"
+                    android:contentDescription="@string/icon"
+                    android:src="@drawable/husband" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10sp">
+
+                <EditText
+                    android:id="@+id/autoCompleteTextView4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/father_name_hint" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10sp"
+                android:gravity="center">
+                <TextView
+                    android:id="@+id/reg_date"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/reg_date"
+                    android:textColor="@color/colorSoftPink"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10sp"
+                android:weightSum="2">
+                <EditText
+                    android:layout_weight="1"
+                    android:id="@+id/regis_hint_date"
+                    android:layout_width="190dp"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="@string/reg_hint_date"
+                    android:inputType="date" />
+
+                <ImageView
+                    android:layout_weight="1"
+                    android:id="@+id/registration_img"
+                    android:layout_width="wrap_content"
+                    android:layout_height="43dp"
+                    android:contentDescription="@string/icon"
+                    android:src="@drawable/ic_date_range_" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+        <android.support.design.widget.BottomNavigationView
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:id="@+id/bottom_navigation"
+            app:menu="@menu/bottom_previous_next"
+            android:background="@color/colorSoftPink">
+        </android.support.design.widget.BottomNavigationView>
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.tusha.maa">
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".HighRiskAnm"
+            android:configChanges="locale|orientation"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
+        <activity android:name=".HighRiskAng"
+            android:configChanges="locale|orientation"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
+        <activity android:name=".HealthCheckup"
+            android:configChanges="locale|orientation"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
+        <activity android:name=".MomProfileActivity"
+            android:configChanges="locale|orientation"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
+        <activity android:name=".ThirdTrimester"
+            android:configChanges="locale|orientation"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
+        <activity android:name=".SecondTrimester"
+            android:configChanges="locale|orientation"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
+        <activity android:name=".FirstTrimester"
+            android:configChanges="locale|orientation"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
+        <activity android:name=".ParentAadhar"
+            android:configChanges="locale|orientation"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
+        <activity android:name=".angadwadi_home_page"
+            android:configChanges="locale|orientation"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
+        <activity android:name=".RegisteredMotherListAngadwadi"
+            android:configChanges="locale|orientation"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
+        <activity android:name=".PlanningAadhar"
+            android:configChanges="locale|orientation"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
+        <activity
+            android:name=".PregnantAddress"
+            android:configChanges="locale|orientation"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".WebViewScheme"
+            android:configChanges="locale|orientation"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".GovtSchemes"
+            android:configChanges="locale|orientation"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".angadwadi_login"
+            android:configChanges="locale|orientation"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".HelpLineActivity"
+            android:configChanges="locale|orientation"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".VideoTutorial"
+            android:configChanges="locale|orientation"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".Scheme1Activity"
+            android:configChanges="locale|orientation"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".Scheme2Activity"
+            android:configChanges="locale|orientation"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".RegisteredMotherList"
+            android:configChanges="locale|orientation"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".ANMRegistration"
+            android:configChanges="locale|orientation"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".ANMLoginActivity"
+            android:configChanges="locale|orientation"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".AadharActivity"
+            android:configChanges="locale|orientation"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity android:name=".temp555" /> <!-- <meta-data -->
+        <!-- android:name="com.google.android.gms.ads.AD_MANAGER_APP" -->
+        <!-- android:value="true" /> -->
+        <activity android:name=".SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".LangActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MomTypeActivity"
+            android:configChanges="locale|orientation"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".WhoYouAreActivity"
+            android:configChanges="locale|orientation"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".Pregnant2Activity"
+            android:configChanges="locale|orientation"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".PregnantActivity"
+            android:configChanges="locale|orientation"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".Pregnant3Activity"
+            android:configChanges="locale|orientation"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".Pregnant4Activity"
+            android:configChanges="locale|orientation"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".Pregnant5Activity"
+            android:configChanges="locale|orientation"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".Pregnant6Activity"
+            android:configChanges="locale|orientation"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".Pregnant7Activity"
+            android:configChanges="locale|orientation"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".LoginActivity"
+            android:configChanges="locale|orientation"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".SignupActivity"
+            android:configChanges="locale|orientation"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".Planning1Activity"
+            android:configChanges="locale|orientation"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".Parent1Activity"
+            android:configChanges="locale|orientation"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".Parent2Activity"
+            android:configChanges="locale|orientation"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".Parent3Activity"
+            android:configChanges="locale|orientation"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".Planning2Activity"
+            android:configChanges="locale|orientation"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".Planning3Activity"
+            android:configChanges="locale|orientation"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".MomFrontActivity"
+            android:configChanges="locale|orientation"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".PlanningFront"
+            android:configChanges="locale|orientation"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
+
+        </activity>
+        <activity
+            android:name=".ParentFront"
+            android:configChanges="locale|orientation"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
+
+        </activity>
+        <activity
+            android:name=".DietPlanActivity"
+            android:configChanges="locale|orientation"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".Verify1"
+            android:configChanges="locale|orientation"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".Verify2"
+            android:configChanges="locale|orientation"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".Verify3"
+            android:configChanges="locale|orientation"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".Verify4"
+            android:configChanges="locale|orientation"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".Verify5"
+            android:configChanges="locale|orientation"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+        android:name=".Verify6"
+        android:configChanges="locale|orientation"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+        android:name=".Verify7"
+        android:configChanges="locale|orientation"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".Verify8"
+            android:configChanges="locale|orientation"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".Verify9"
+            android:configChanges="locale|orientation"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".Verify10"
+            android:configChanges="locale|orientation"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+
+    </application>
+
+</manifest>

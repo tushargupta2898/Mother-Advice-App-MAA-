@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="70dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_margin="10sp">
+        <TextView
+            android:id="@+id/text1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text1"
+            android:textColor="@color/colorSoftPink"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_margin="10sp">
+        <TextView
+            android:id="@+id/mobnum"
+            android:layout_width="wrap_content"
+            android:layout_height="40sp"
+            android:text="@string/contact"
+            android:textColor="@color/colorSoftPink"
+            android:textSize="24sp"
+            android:textStyle="bold"/>
+        </LinearLayout>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="10sp">
+        <EditText
+            android:id="@+id/contactnum"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/contact_hint" />
+</LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="10sp"
+            android:layout_marginHorizontal="10sp">
+
+        <TextView
+            android:id="@+id/whosenum"
+            android:layout_width="wrap_content"
+            android:layout_height="40sp"
+            android:text="@string/persons_contact"
+            android:textColor="@color/colorSoftPink"
+            android:textSize="25sp"
+            android:textStyle="bold"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10sp">
+
+            <RadioGroup
+                android:id="@+id/whose_contact_is_this"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <!--<LinearLayout-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_marginHorizontal="10sp"-->
+                    <!--android:orientation="horizontal"-->
+                    <!--android:weightSum="2">-->
+
+                <RadioButton
+                    android:layout_weight="1"
+                    android:id="@+id/me"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/myself"
+                    android:textColor="@color/colorSoftPink"
+                    android:textSize="22sp"
+                    tools:ignore="OnClick" />
+
+                <RadioButton
+                    android:layout_weight="1"
+                    android:id="@+id/husband"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/husband"
+                    android:textColor="@color/colorSoftPink"
+                    android:textSize="22sp"
+                    tools:ignore="OnClick" />
+                <!--</LinearLayout>-->
+                <!--<LinearLayout-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_margin="10sp"-->
+                    <!--android:layout_marginHorizontal="10sp"-->
+                    <!--android:weightSum="2"-->
+                    <!--android:orientation="horizontal">-->
+
+                <RadioButton
+                    android:layout_weight="1"
+                    android:id="@+id/relative"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/relative"
+                    android:textColor="@color/colorSoftPink"
+                    android:textSize="22sp"
+                    tools:ignore="OnClick" />
+
+                <RadioButton
+                    android:layout_weight="1"
+                    android:id="@+id/neighbour"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/neighbour"
+                    android:textColor="@color/colorSoftPink"
+                    android:textSize="22sp"
+                    tools:ignore="OnClick" />
+                <!--</LinearLayout>-->
+
+            </RadioGroup>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginHorizontal="10sp">
+
+        <TextView
+        android:id="@+id/caste"
+        android:layout_width="wrap_content"
+        android:layout_height="40sp"
+        android:text="@string/rel"
+        android:textColor="@color/colorSoftPink"
+        android:textSize="25sp"
+            android:textStyle="bold"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10sp">
+
+            <RadioGroup
+                android:id="@+id/religion_option"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:layout_weight="1"
+                    android:id="@+id/hindu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/hin"
+                    android:textColor="@color/colorSoftPink"
+                    android:textSize="22sp"
+                    android:textStyle=""
+                    tools:ignore="OnClick" />
+
+                <RadioButton
+                    android:layout_weight="1"
+                    android:id="@+id/mus"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/sik"
+                    android:textColor="@color/colorSoftPink"
+                    android:textSize="22sp"
+                    tools:ignore="OnClick" />
+
+
+                <RadioButton
+                    android:layout_weight="1"
+                    android:id="@+id/sikh"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/chris"
+                    android:textColor="@color/colorSoftPink"
+                    android:textSize="22sp"
+                    tools:ignore="OnClick" />
+
+                <RadioButton
+                    android:layout_weight="1"
+                    android:id="@+id/christn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/mus"
+                    android:textColor="@color/colorSoftPink"
+                    android:textSize="22sp"
+                    tools:ignore="OnClick" />
+
+
+            </RadioGroup>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+
+            android:layout_marginHorizontal="10sp">
+
+    <TextView
+        android:id="@+id/category"
+        android:layout_width="wrap_content"
+        android:layout_height="40sp"
+        android:text="@string/category"
+        android:textSize="25sp"
+        android:textColor="@color/colorSoftPink"
+        android:textStyle="bold"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10sp">
+
+    <RadioGroup
+        android:id="@+id/category_option"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/obc"
+            android:layout_weight="1"
+            android:textColor="@color/colorSoftPink"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/obc"
+            android:textSize="24sp"
+
+            tools:ignore="OnClick"
+            />
+
+        <RadioButton
+            android:layout_weight="1"
+            android:id="@+id/st"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorSoftPink"
+            android:text="@string/st"
+            android:textSize="24sp"
+            tools:ignore="OnClick" />
+        <RadioButton
+            android:layout_weight="1"
+            android:id="@+id/sc"
+            android:textColor="@color/colorSoftPink"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sc"
+            android:textSize="24sp"
+
+            tools:ignore="OnClick" />
+
+            <RadioButton
+                android:id="@+id/gen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/gen"
+                android:textColor="@color/colorSoftPink"
+                android:textSize="24sp"
+                tools:ignore="OnClick" />
+
+    </RadioGroup>
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+        <android.support.design.widget.BottomNavigationView
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:id="@+id/bottom_navigation"
+            app:menu="@menu/bottom_previous_next"
+            android:background="@color/colorSoftPink">
+        </android.support.design.widget.BottomNavigationView>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="app_name">MAA</string>
+<string name="mother_advice_app">Mother Advice App</string>
+<string name="motheradviceapp"> Mother Advice App</string>
+<string name="english">ENGLISH</string>
+<string name="hindi">हिंदी</string>
+<string name="tamil">தமிழ்</string>
+<string name="who_you_are"> நீங்கள் யார் தேர்வு</string>
+<string name="language1">CHOOSE LANGUAGE</string>
+<string name="language2">भाषा चुनें</string>
+<string name="language3">भाषा निवडा</string>
+<string name="guardian">கார்டியன்</string>
+<string name="anm">ஏ.என்.எம்</string>
+<string name="angwadi">அங்கன்வாடி</string>
+<string name="user_id">பயனர் ஐடி</string>
+<string name="are_you">நீங்கள்</string>
+<string name="planning">திட்டமிடல்</string>
+<string name="pregnant">கர்ப்பிணி</string>
+<string name="parent">பெற்றோர்</string>
+<string name="icon">ஐகான்</string>
+<string name="emergency">அவசர அழைப்பு</string>
+<string name="text_to_speech">உரையாடல் உரை</string>
+<string-array name="blood">
+<item>A+</item>
+<item>A-</item>
+<item>B+</item>
+<item>B-</item>
+<item>O+</item>
+<item>O-</item>
+<item>AB+</item>
+<item>AB-</item>
+</string-array>
+<string name="aadar_card">ஆதார் அட்டை</string>
+<string name="phonenum">தொலைபேசி எண்</string>
+<string name="otphint">சிவகாசி</string>
+
+<string name="pregnant_info_no1">ஆதார் எண்</string>
+<string name="pregnant_info_no1_hint">அம்மாவின் அடஹார் எண்ணை உள்ளிடவும்</string>
+<string name="pregnant_address">முகவரி</string>
+<string name="pregnant_address_hint">உங்கள் முகவரியை உள்ளிடவும்</string>
+<string name="pregnant_income">குடும்ப வருமானம்</string>
+<string name="mother_name">தாய் பெயர்</string>
+<string name="mother_name_hint">தாய் பெயர் உள்ளிடவும்</string>
+<string name="father_name">தந்தையின் பெயர்</string>
+<string name="father_name_hint">பிதாவின் பெயரை உள்ளிடவும்</string>
+
+
+<string name="dummy_content">போலி \ உள்ளடக்கம்</string>
+
+<string name="sprintjobsicon">செய்ய வேண்டியவை</string>
+
+<string name="e_mail">மின்னஞ்சல்</string>
+
+<string name="username">பயனர்பெயர்</string>
+
+<string name="signup">பதிவு / உள்நுழை</string>
+
+<string name="login">உள் நுழை</string>
+
+<string name="register_here">ஏற்கனவே ஒரு கணக்கு உள்ளது</string>
+
+<string name="guestlogin">விருந்தினராக உள்நுழைக.</string>
+
+<string name="Dont_have">SIGNUP புதிய கணக்கை உருவாக்கவும்</string>
+
+<string name="title_activity_login">உள்நுழைக</string>
+
+<string name="forget_password">கடவுச்சொல்லை மறந்து?</string>
+
+    <!-- Strings related to login -->
+
+
+<string name="prompt_email">மின்னஞ்சல்</string>
+
+<string name="prompt_password">கடவுச்சொல்</string>
+
+<string name="action_sign_in">உள்நுழைக அல்லது பதிவுசெய்க</string>
+
+<string name="action_sign_in_short">உள்நுழைக</string>
+
+<string name="error_invalid_email">இந்த மின்னஞ்சல் முகவரி தவறானது</string>
+
+<string name="error_invalid_password">இந்த கடவுச்சொல் மிகவும் குறுகியதாக உள்ளது</string>
+
+<string name="error_incorrect_password">இந்த கடவுச்சொல் தவறானது</string>
+
+<string name="error_field_required">இந்த புலம் தேவை</string>
+
+<string name="permission_rationale">மின்னஞ்சல் பூர்த்தி செய்வதற்கு தொடர்பு அனுமதிகள் தேவை.</string>
+
+<string name="text1">பொதுவான செய்தி</string>
+<string name="wife_name">மனைவி \ கள் பெயர்</string>
+<string name="husband_name">கணவரின் பெயர்</string>
+<string name="wife_name_hint">ഭാര്യவியின் பெயரை உள்ளிடவும்</string>
+<string name="wife_dob_hint">Wife DOB ஐ உள்ளிடவும்</string>
+<string name="husband_dob_hint">கணவன் \ கள் DOB ஐ உள்ளிடவும்</string>
+<string name="husband_name_hint">கணவரின் பெயரை உள்ளிடவும்</string>
+<string name="wife_dob">பிறந்த தேதி</string>
+<string name="marriage_date">திருமண தேதி</string>
+<string name="marriage_date_hint">உங்கள் திருமண தேதி சேர்க்கவும்</string>
+<string name="lmp_date">கடைசி காலம்</string>
+<string name="lmp_hint_date">கடைசி காலம்வரை உள்ளிடவும்</string>
+<string name="text2">சுகாதார தகவல்</string>
+<string name="height">மனைவி உயரம் (செ.மீ)0</string>
+<string name="weight">மனைவியின் எடை (கிலோ)</string>
+<string name="height_hint">மனைவியின் உயரம் உள்ளிடவும் (செ.மீ)</string>
+<string name="weight_hint">மனைவியின் எடை உள்ளிடவும் (கிலோ)</string>
+<string name="health">சுகாதார கவலைகள்</string>
+<string name="health_concern_1">இரத்த சோகை</string>
+<string name="health_concern_2">நீரிழிவு</string>
+<string name="health_concern_3">உயர் / குறைந்த இரத்த அழுத்தம்</string>
+<string name="health_concern_4">தெரியாதே</string>
+
+<string name="income_first">வறுமைக் கோட்டிற்கு கீழே</string>
+
+<string name="income_second">வறுமைக் கோட்டிற்கு மேல்</string>
+
+<string name="contact">தொடர்பு எண்</string>
+
+<string name="contact_hint">தொடர்பு எண் உள்ளிடவும்</string>
+
+<string name="persons_contact">யாருடைய தொடர்பு எண் இது?</string>
+
+<string name="myself">நானே</string>
+
+<string name="husband">கணவர்</string>
+
+<string name="relative">உறவினர்</string>
+
+<string name="neighbour">அண்டை</string>
+
+<string name="category">வகை</string>
+
+<string name="gen">பொது</string>
+
+<string name="obc">ஓ.பி.சி.</string>
+
+<string name="sc">எஸ்சி</string>
+<string name="st">எஸ்டி</string>
+
+<string name="rel">மதம்</string>
+
+<string name="hin">இந்து மதம்</string>
+
+<string name="mus">முஸ்லீம்</string>
+
+<string name="sik">சீக்கிய</string>
+
+<string name="chris">கிரிஸ்துவர்</string>
+
+<string name="reg_date">பதிவு தேதி</string>
+
+<string name="reg_hint_date">பதிவு தேதி சேர்க்கவும்</string>
+
+<string name="weeks">தற்போதைய கர்ப்பம் வாரம்</string>
+
+<string name="curr_hint">வாரங்கள்</string>
+
+<string name="weight_hint_m">எடை (கிலோ)</string>
+
+<string name="dod">டெலிவரி / டெலிவரி தேதி எதிர்பார்க்கப்படும் தேதி</string>
+
+<string name="dod_hint">டெலிவரி எதிர்பார்க்கப்படும் தேதி உள்ளிடவும்</string>
+
+<string name="blodd_group">இரத்த வகை</string>
+
+<string name="disease_suffering">தற்போதைய நோய்கள்</string>
+
+<string name="diseases_hint">தாய் பாதிக்கப்படுகிற நோய்களின் பெயரை உள்ளிடவும்</string>
+
+<string name="nop">கர்ப்பத்தின் மொத்த எண்ணிக்கை</string>
+
+<string name="nop_hint">முந்தைய கர்ப்பத்தின் எண்ணிக்கையை உள்ளிடுக</string>
+
+<string name="prev">முந்தைய கர்ப்பம் தகவல்</string>
+
+<string name="com_code">சிக்கலான கோட்</string>
+
+<string name="com_code_hint">சிக்கலான குறியீடு உள்ளிடவும்</string>
+
+<string name="dev_result_code">டெலிவரி முடிவு கோட்</string>
+
+<string name="result_alive">அலைவ்</string>
+
+<string name="result_dead">இறப்பு</string>
+
+<string name="bef_prev">முந்தைய கர்ப்பம் தகவல் முன்</string>
+
+<string name="hospital">கர்ப்ப காலத்தில் விருப்பமான மருத்துவமனை</string>
+
+<string name="hospital_code">மருத்துவமனையின் கோட்</string>
+
+<string name="hospital_name">மருத்துவமனையின் பெயர்</string>
+
+<string name="hospital_code_hint">மருத்துவமனையின் கோட் உள்ளிடவும்</string>
+
+<string name="hospital_name_hint">மருத்துவமனையின் பெயரை உள்ளிடவும்</string>
+
+<string name="hospital_addr_hint">மருத்துவமனையின் முகவரியை உள்ளிடவும்</string>
+
+<string name="hospital_addr">மருத்துவமனையின் முகவரி</string>
+
+<string name="vdrl_test">VDRL (RPR) டெஸ்ட்</string>
+
+<string name="hiv_test">எச் ஐ வி டெஸ்ட்</string>
+
+<string name="sickling_test">சிக்லிங் டெஸ்ட்</string>
+
+<string name="positve">நேர்மறை</string>
+
+<string name="negative">எதிர்மறை</string>
+
+<string name="not_tested">சோதிக்கப்படவில்லை</string>
+
+<string name="parent_aadhar">ஆடார் எண் உள்ளிடவும்</string>
+<string name="parent_type">நீங்கள் என்ன?</string>
+<string name="parent_type_one">தாய்</string>
+<string name="parent_type_two">தந்தை</string>
+<string name="parent_name">பெற்றோர் பெயர்</string>
+<string name="parent_name_hint">உங்கள் பெயரை உள்ளிடவும்</string>
+<string name="delivery_date">டெலிவரி தேதி</string>
+<string name="del_hint">டெலிவரி தேதி சேர்க்கவும்</string>
+<string name="mother_health">அம்மாவின் உடல் விவரங்கள்</string>
+<string name="mother_wgt_hint">தாயின் எடை (கிலோ)</string>
+<string name="systolic_bp">சிஸ்டாலிக் இரத்த அழுத்தம்</string>
+<string name="diastolic_bp">டைஸ்டாலிக் இரத்த அழுத்தம்</string>
+<string name="systolic_bp_hint">அம்மாவின் சிஸ்டாலிக் இரத்த அழுத்தம் உள்ளிடவும்</string>
+<string name="diastolic_bp_hint">தாயின் \ Diastolic இரத்த அழுத்தம் உள்ளிடவும்</string>
+<string name="child_health">பேபி பற்றிய விவரங்கள்</string>
+<string name="child_wgt">பேபி எடை (கிலோ)</string>
+<string name="child_wgt_hint">குழந்தை \ கள் எடை உள்ளிடவும் (கிலோ)</string>
+<string name="child_height">குழந்தை உயரம் (செ.மீ)</string>
+<string name="child_height_hint">குழந்தை \ கள் உயரம் உள்ளிடவும் (செ.மீ)</string>
+<string name="child_vacc">குழந்தைக்கு கொடுக்கப்பட்ட தடுப்பூசிகள்</string>
+<string name="vacc1">BCG தடுப்பூசி</string>
+<string name="vacc2">டிபிடி தடுப்பூசி</string>
+<string name="vacc3">போலியோ தடுப்பூசி</string>
+<string name="vacc4">கணுக்கால் தடுப்பூசி</string>
+<string name="weight_m">அம்மாவின் எடை (கேஜிஸ்)</string>
+<string name="app_name_1">இந்த பிரிவில் ஒன்பது பத்திகள் விவரிக்கின்றன
+கர்ப்பத்தின் மாதங்களின் படங்கள்
+கர்ப்பிணி பெண்கள்.</string>
+<string name="app_name_2">முதல் நெடுவரிசை ஒத்துள்ளது
+கர்ப்பம் முதல் மாதம், இரண்டாவது
+கர்ப்பத்தின் இரண்டாவது மாதம் மற்றும்
+விரைவில்…</string>
+<string name="app_name_3">ஒரு கர்ப்பிணிப் பெண் ஒவ்வொரு வருகையிலும் தனது இரத்த அழுத்தம் பரிசோதிக்கப்பட வேண்டும்.</string>
+<string name="app_name_4">ஒரு கர்ப்பிணி பெண் குறைந்தபட்சம் ஒரு மாதத்திற்கு ஒரு இரும்பு மாத்திரையை எடுக்க வேண்டும்.
+அவள் குறைந்தபட்சம் 100 மாத்திரைகளை எடுக்க வேண்டும்.
+</string>
+<string name="health_checkup">சுகாதார சோதனை</string>
+
+<string name="date_of_checkup">உடல்நலம் சரிபார்ப்பு தேதி</string>
+
+<string name="check_up_hint_date">காசோலை தேதி தேதியிடவும்</string>
+
+<string name="weight_of_mother">அம்மாவின் எடை</string>
+
+<string name="weight_hint_checkup">தாயின் எடை உள்ளிடவும்</string>
+
+<string name="sys_bp_of_mother">சிஸ்டாலிக் இரத்த அழுத்தம்</string>
+
+<string name="sys_bp_of_mother_hint">சிஸ்டாலிக் இரத்த அழுத்தம் உள்ளிடுக0</string>
+
+<string name="dia_bp_of_mother">டைஸ்டாலிக் இரத்த அழுத்தம்</string>
+
+<string name="dia_bp_of_mother_hint">Diastolic இரத்த அழுத்தம் உள்ளிடவும்</string>
+
+<string name="checkup_submit">சமர்ப்பி</string>
+<string name="skip_1">எச்.ஐ.வி.</string>
+<string name="new_registration_1">புதிய பதிவு</string>
+<string name="regi_mom">பதிவுசெய்யப்பட்ட தாய்</string>
+<string name="user_id_1">பயனர் ஐடி</string>
+<string name="mom_suggestion">பதிவுசெய்யாத தாய் இன்னும் பதிவு செய்யவில்லையா?</string>
+<string name="mom_register_1">பதிவுசெய்யப்பட்ட தாய்</string>
+<string name="gov_schme">அரசியலமைப்புச் சட்டங்கள்</string>
+<string name="yojna_1">பிரதான் மன்டிரி மடிவி வான்டான் யோஜனா</string>
+<string name="yojna_2">நோனி சரசா யோஜனா</string>
+<string name="doc_help">டாக்டர் ஹெல்ப்லைன்</string>
+<string name="gynao_help">சிறுநீரக மருத்துவர் ஹெல்ப்லைன் எண்</string>
+<string name="doc_help_1">டாக்டர் ஹெல்ப்லைன்</string>
+<string name="child_special">குழந்தை சிறப்பு ஹெல்ப்லைன் எண்</string>
+<string name="anm_helpline">ANM ஹெல்ப்லைன்</string>
+<string name="help_line_1">உங்கள் உள்ளூர் ANM இன் ஹெல்ப்லைன் எண்</string>
+<string name="help_line_2">அங்கன்வாடி ஹெல்ப்லைன்</string>
+<string name="help_line_3">அங்கன்வாடியால் உங்கள் அருகிலுள்ள ஹெல்ப்லைன் எண்</string>
+<string name="congu_1">வாழ்த்துக்கள் பேபி ___ இல் வருகிறது</string>
+<string name="vedio_tu_1">வீடியோ டுடோரியல்</string>
+<string name="vedio_tu_2">டெய்லி வீடியோ டுடோரியல் காசோலை</string>
+<string name="govt_schme">Govt.Scheme</string>
+<string name="check_aadar">ஆத்தரின் அடிப்படையில் அரசுத் திட்டத்தைச் சரிபார்க்கவும்</string>
+<string name="help_line">ஹெல்ப்லைன்</string>
+<string name="help_line_4">ஹெல்ப்லைன் எண்கள் இங்கே பாருங்கள்</string>
+<string name="diet_chart_1">டயட் விளக்கப்படம்</string>
+<string name="check_diet">Trimesters அடிப்படையை டயட் விளக்கப்படம் சரிபார்க்கவும்</string>
+<string name="tips_tricks">குறிப்புகள் மற்றும் அறிவுரைகளை</string>
+<string name="immunity">நோய் எதிர்ப்பு சக்தி</string>
+<string name="baby_health_care">குழந்தை உடல்நலம்</string>
+<string name="check_gov">ஆத்தரின் அடிப்படையில் அரசுத் திட்டத்தைச் சரிபார்க்கவும்</string>
+<string name="fertile_date">உங்கள் எச்சரிக்கை தேதி ____</string>
+<string name="form_4">படிவம் 4</string>
+<string name="curr_preg_week">தற்போதைய கர்ப்பிணி வாரம்</string>
+<string name="state_name">மாநில பெயர்</string>
+<string name="district_name">மாவட்ட பெயர்</string>
+<string name="area_name">பகுதி பெயர்</string>
+<string name="get_otp">OTP ஐப் பெறுக</string>
+<string name="resend_otp">OTP ஐ மீண்டும் அனுப்புக</string>
+<string name="name">பெயர்</string>
+<string name="complete">முழு</string>
+<string name="verfied">சரிபார்க்கப்பட்டது</string>
+<string name="anganwadi_ji">அங்கன்வாடி</string>
+<string name="complete_verify">படிவம் முடிக்க / சரிபார்க்கவும்</string>
+<string name="health_checkup_1">சுகாதார சோதனை</string>
+<string name="aadhar_11">ஆதார் அட்டைப் பதிவை</string>
+<string name="women_check">பெண்கள் சோதனை</string>
+<string name="yojna_3">"-Nearly 39,870 daughters have been registered in Chhattisgarh under ‘Noni Suraksha Yojana’ in last quarters to three years, officials said on Saturday.This scheme was launched by Women and Child Development Department of State Government on April 1, 2014. Under this scheme, an account in life Insurance Corporation of India is opened in the name of each beneficiary daughter and Rs 5,000 is deposited in this account every year for five years.
+-Beneficiary daughter can withdraw the amount of one lakh, if she is not married till the age of 18 years and has completed education till 12th standard.This scheme is for families of Below Poverty line (BPl). Those daughters are being covered under the scheme, who were born after April 1, 2014.Main objective of the scheme is to prevent female feticide, build positive mindset towards birth of daughters, lay strong foundation for bright future of daughters, to stop child marriage, and to improve the status of education and health facilities for them.
+-Women and Child Development Department Officials said on Saturday that 3,748 daughters of Rajnandgaon, 2,703 daughters of Raipur district, 2,525 daughters of Balodabazar-Bhatapara district, 2,499 daughters of Mahasamund district, 2,456 daughters of Balrampur-Ramanujganj district, 2,243 daughters of Janjgir-Champa district, 2,428 daughters of Durg district, 2,202 daughters of Balod district, 2,033 daughters of Raigarh district, 1,751 daughters of Bilaspur district,  1,461 daughters of Surguja district, 1,557 daughters of Mungeli district, 1,349 daughters of Dhamtari district, 1,377 daughters in Korba district, 1,374 daughters of Kabeerdham district, 1,100 daughters of Jashpur district, 1,033 daughters of Koriya district, 977 daughters of South Bastar (Dantewada) district, 733 daughters of Bemetara district, 608 daughters of Sukma district, 583 daughters of North Bastar (Kanker) district, 506 daughters of Surajpur district, 93 daughters of Narayanpur district, and 82 daughters of Bijapur district have been registered under the scheme."</string>
+<string name="yojna_4">Pradhan Mantri Matritva Vandana Yojana</string>
+<string name="yojna_5">"Pradhan Mantri Matru Vandana Yojana  (PMMVY) is a Maternity Benefit Programme that is implemented in all the districts of the country in accordance with the provision of the National Food Security Act, 2013.
+       1).Cash incentive of Rs 5000 in three instalments i.e. first instalment of Rs 1000/ - on early registration of pregnancy at the Anganwadi Centre (AWC) / approved Health facility as may be identified by the respective administering State / UT, second instalment of Rs 2000/ - after six months of pregnancy on receiving at least one ante-natal check-up (ANC) and third instalment of Rs 2000/ - after child birth is registered and the child has received the first cycle of BCG, OPV, DPT and Hepatitis - B, or its equivalent/ substitute.
+
+2).The eligible beneficiaries would receive the incentive given under the Janani Suraksha Yojana (JSY) for Institutional delivery and the incentive received under JSY would be accounted towards maternity benefits so that on an average a woman gets Rs 6000 / -</string>
+<string name="apply">இப்போது விண்ணப்பிக்கவும்</string>
+<string name="wrong_verification_code_alert">நீங்கள் தவறான சரிபார்ப்புக் குறியீட்டை உள்ளிட்டுள்ளீர்கள்</string>
+<string name="ph_number_empty_alert">தொலைபேசி எண் காலியாக இருக்க முடியாது</string>
+<string name="otp_blank_alert">otp எண் காலியாக இருக்க முடியாது</string>
+<string name="otp_send_message">சரிபார்ப்புக் குறியீடு உங்கள் மொபைல் ஃபோன் எண்ணுக்கு அனுப்பப்பட்டது தயவுசெய்து சரிபார்க்கவும்</string>
+<string name="sms_qutoa_exceeded_alert">திட்டத்திற்கான எஸ்எம்எஸ் ஒதுக்கீடு மீறப்பட்டுள்ளது</string>
+<string name="please_wait">காத்திருக்கவும்</string>
+<string name="phone_number_successfully_verified_thankyou">தொலைபேசி எண் வெற்றிகரமாக சரிபார்க்கப்பட்டது !! பசும்பொன்</string>
+    <string name="marathi">मराठी</string>
+    <string name="First">First Trimester</string>
+    <string name="Second">Second Trimester</string>
+    <string name="Third">Third Trimester</string>
+    <string name="diet">Diet PLan</string>
+    </resources>

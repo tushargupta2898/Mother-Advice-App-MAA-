@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="10sp"
+                android:text="Noni Suraksha Yojanaa"
+                android:textColor="@color/colorAccent"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textscheme2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:padding="5dp"
+                android:text="-Nearly 39,870 daughters have been registered in Chhattisgarh under ‘Noni Suraksha Yojana’ in last quarters to three years, officials said on Saturday.This scheme was launched by Women and Child Development Department of State Government on April 1, 2014. Under this scheme, an account in life Insurance Corporation of India is opened in the name of each beneficiary daughter and Rs 5,000 is deposited in this account every year for five years.
+
+
+-Beneficiary daughter can withdraw the amount of one lakh, if she is not married till the age of 18 years and has completed education till 12th standard.This scheme is for families of Below Poverty line (BPl). Those daughters are being covered under the scheme, who were born after April 1, 2014.Main objective of the scheme is to prevent female feticide, build positive mindset towards birth of daughters, lay strong foundation for bright future of daughters, to stop child marriage, and to improve the status of education and health facilities for them.
+
+
+-Women and Child Development Department Officials said on Saturday that 3,748 daughters of Rajnandgaon, 2,703 daughters of Raipur district, 2,525 daughters of Balodabazar-Bhatapara district, 2,499 daughters of Mahasamund district, 2,456 daughters of Balrampur-Ramanujganj district, 2,243 daughters of Janjgir-Champa district, 2,428 daughters of Durg district, 2,202 daughters of Balod district, 2,033 daughters of Raigarh district, 1,751 daughters of Bilaspur district,  1,461 daughters of Surguja district, 1,557 daughters of Mungeli district, 1,349 daughters of Dhamtari district, 1,377 daughters in Korba district, 1,374 daughters of Kabeerdham district, 1,100 daughters of Jashpur district, 1,033 daughters of Koriya district, 977 daughters of South Bastar (Dantewada) district, 733 daughters of Bemetara district, 608 daughters of Sukma district, 583 daughters of North Bastar (Kanker) district, 506 daughters of Surajpur district, 93 daughters of Narayanpur district, and 82 daughters of Bijapur district have been registered under the scheme."
+                android:textColor="@android:color/darker_gray"
+                android:textSize="16dp"
+                android:textStyle="bold|italic" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="24sp"
+                android:id="@+id/btnapply2"
+                android:layout_margin="10sp"
+                android:background="@color/lightpink"
+                android:text="APPLY NOW"/>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="70dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_margin="20sp">
+                <TextView
+                    android:id="@+id/text1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/text1"
+                    android:textColor="@color/colorSoftPink"
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginHorizontal="10sp"
+                android:weightSum="2">
+
+
+                <TextView
+                    android:id="@+id/state_name"
+                    android:layout_width="176dp"
+                    android:layout_height="wrap_content"
+                    android:text="state name"
+                    android:textColor="@color/colorSoftPink"
+                    android:textSize="24sp"
+                    android:layout_weight="1"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10sp">
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="state_name"
+                    android:id="@+id/state_Name"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginHorizontal="10sp"
+                android:weightSum="2">
+
+                <TextView
+                    android:layout_weight="1"
+                    android:id="@+id/district_name"
+                    android:layout_width="176dp"
+                    android:layout_height="wrap_content"
+                    android:text="district name"
+                    android:textColor="@color/colorSoftPink"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10sp">
+
+                <EditText
+                    android:id="@+id/district_Name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="district Name" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10sp">
+                <TextView
+                    android:id="@+id/area_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="area name"
+                    android:textColor="@color/colorSoftPink"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10sp">
+                <EditText
+                    android:layout_weight="1"
+                    android:id="@+id/area_Name"
+                    android:layout_width="190dp"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="@string/area_name" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+        <android.support.design.widget.BottomNavigationView
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:id="@+id/bottom_navigation"
+            app:menu="@menu/bottom_previous_next"
+            android:background="@color/colorSoftPink">
+        </android.support.design.widget.BottomNavigationView>
+    </LinearLayout>
+
+</RelativeLayout>

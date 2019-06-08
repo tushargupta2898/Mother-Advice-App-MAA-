@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="10sp"
+                android:text="Pradhan Mantri Matritva Vandana Yojana"
+                android:textColor="@color/colorAccent"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:padding="5dp"
+                android:text="Pradhan Mantri Matru Vandana Yojana  (PMMVY) is a Maternity Benefit Programme that is implemented in all the districts of the country in accordance with the provision of the National Food Security Act, 2013.
+
+
+1).Cash incentive of Rs 5000 in three instalments i.e. first instalment of Rs 1000/ - on early registration of pregnancy at the Anganwadi Centre (AWC) / approved Health facility as may be identified by the respective administering State / UT, second instalment of Rs 2000/ - after six months of pregnancy on receiving at least one ante-natal check-up (ANC) and third instalment of Rs 2000/ - after child birth is registered and the child has received the first cycle of BCG, OPV, DPT and Hepatitis - B, or its equivalent/ substitute.
+
+
+2).The eligible beneficiaries would receive the incentive given under the Janani Suraksha Yojana (JSY) for Institutional delivery and the incentive received under JSY would be accounted towards maternity benefits so that on an average a woman gets Rs 6000 / - ."
+                android:textColor="@android:color/darker_gray"
+                android:textSize="16dp"
+                android:textStyle="bold|italic" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="24sp"
+                android:id="@+id/btnapply1"
+                android:layout_margin="10sp"
+                android:background="@color/lightpink"
+                android:text="APPLY NOW" />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

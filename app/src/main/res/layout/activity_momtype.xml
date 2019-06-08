@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+        <LinearLayout
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+    <TextView
+        android:id="@+id/areyou"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/are_you"
+        android:textColor="@color/colorSoftPink"
+        android:textSize="36sp"
+        android:textStyle="bold" />
+        </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+      >
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        app:cardBackgroundColor="@color/textColor"
+        app:cardCornerRadius="15dp"
+        app:cardElevation="10dp">
+
+
+        <ImageView
+            android:layout_width="113dp"
+            android:layout_height="127dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/planning1" />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="0dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="150dp"
+            android:src="@drawable/pregnant" />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="0dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="290dp"
+            android:src="@drawable/parent" />
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:id="@+id/radioGroup3"
+            android:layout_alignParentBottom="true"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="110dp"
+            android:layout_marginLeft="20dp"
+            android:layout_alignParentStart="true">
+
+        <RadioButton
+
+            android:id="@+id/planning"
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            android:layout_marginTop="40dp"
+            android:text="@string/planning"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:onClick="onRadioButtonClicked"
+            tools:ignore="OnClick"/>
+
+        <RadioButton
+            android:id="@+id/pregnant"
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            android:layout_marginTop="100dp"
+            android:text="@string/pregnant"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:onClick="onRadioButtonClicked"
+            tools:ignore="OnClick"/>
+
+        <RadioButton
+            android:id="@+id/parent"
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            android:layout_marginTop="100dp"
+            android:text="@string/parent"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:onClick="onRadioButtonClicked"
+            tools:ignore="OnClick"/>
+        </RadioGroup>
+    </android.support.v7.widget.CardView>
+    </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+    <android.support.design.widget.BottomNavigationView
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+
+        android:id="@+id/bottom_navigation"
+        app:menu="@menu/bottom_next"
+        android:background="@color/colorSoftPink">
+    </android.support.design.widget.BottomNavigationView>
+    </LinearLayout>
+
+</RelativeLayout>

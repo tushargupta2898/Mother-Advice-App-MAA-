@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="70dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:gravity="center">
+                <TextView
+                    android:id="@+id/text1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/text1"
+                    android:textColor="@color/colorSoftPink"
+                    android:textSize="28sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_margin="10dp">
+
+                <ImageView
+                    android:id="@+id/indian_women_picture"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:layout_weight="1"
+                    android:contentDescription="@string/icon"
+                    android:src="@drawable/indian_women" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/wife_name"
+                    android:layout_width="148dp"
+                    android:layout_height="match_parent"
+                    android:text="@string/wife_name"
+                    android:textColor="@color/colorSoftPink"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <EditText
+                    android:id="@+id/autoCompleteTextView1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:hint="@string/wife_name_hint" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="10dp"
+                android:gravity="center">
+                <TextView
+                    android:id="@+id/wife_dob"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/wife_dob"
+                    android:textColor="@color/colorSoftPink"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="3">
+                <EditText
+                    android:id="@+id/wife_dob2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:layout_weight="2.5"
+                    android:hint="@string/wife_dob_hint"
+                    android:inputType="date" />
+
+                <ImageView
+                    android:id="@+id/wife_dob_img"
+                    android:layout_width="60dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.5"
+                    android:contentDescription="@string/icon"
+                    android:src="@drawable/ic_date_range_" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_margin="20dp">
+
+                <ImageView
+                    android:id="@+id/indian_men_picture"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:contentDescription="@string/icon"
+                    android:src="@drawable/indian_men" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center">
+                <TextView
+                    android:id="@+id/husband_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/husband_name"
+                    android:textColor="@color/colorSoftPink"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <EditText
+                    android:id="@+id/autoCompleteTextView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/husband_name_hint" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="10dp"
+                android:gravity="center">
+                <TextView
+                    android:id="@+id/husband_dob"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/wife_dob"
+                    android:textColor="@color/colorSoftPink"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="3">
+                <EditText
+                    android:id="@+id/husband_dob2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2.5"
+                    android:ems="10"
+                    android:hint="@string/husband_dob_hint"
+                    android:inputType="date" />
+
+                <ImageView
+                    android:id="@+id/husband_dob_img"
+                    android:layout_width="62dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.5"
+                    android:contentDescription="@string/icon"
+                    android:src="@drawable/ic_date_range_" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true">
+        <android.support.design.widget.BottomNavigationView
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_alignParentBottom="true"
+            android:id="@+id/bottom_navigation"
+            app:menu="@menu/bottom_previous_next"
+            android:background="@color/colorSoftPink">
+        </android.support.design.widget.BottomNavigationView>
+    </LinearLayout>
+
+</RelativeLayout>

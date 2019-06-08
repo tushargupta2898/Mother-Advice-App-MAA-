@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.CardView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10sp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="10dp"
+            android:background="@color/lightpurple">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="10dp"
+            android:weightSum="2">
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+            <TextView
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/momname"
+                android:layout_margin="10dp"
+                android:textStyle="bold"
+                android:textSize="32dp"
+                android:text="@string/name"
+                android:textColor="@color/colorSoftPink"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/formstatus"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:textSize="22sp"
+                    android:textStyle="bold"
+                    android:text="@string/complete"
+                    android:textColor="@color/colorSoftPink"/>
+
+                <TextView
+                    android:id="@+id/verifystatus"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:textSize="22sp"
+                    android:textStyle="bold"
+                    android:text="@string/verfied"
+                    android:textColor="@color/colorSoftPink"/>
+            </LinearLayout>
+        </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/momaadhartext"
+                android:layout_margin="10dp"
+                android:textStyle="bold"
+                android:textSize="22dp"
+                android:text="@string/aadhar_11"
+                android:textColor="@color/colorSoftPink"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/momaadhar"
+                    android:layout_marginVertical="10dp"
+                    android:textStyle="bold"
+                    android:textSize="22dp"
+                    android:text="aadhar"
+                    android:textColor="@color/colorSoftPink"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/momnumbertext"
+                android:layout_margin="10dp"
+                android:textStyle="bold"
+                android:textSize="18dp"
+                android:text="PHONE NO."
+                android:textColor="@color/colorSoftPink"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/momnumber"
+                android:layout_marginVertical="10dp"
+                android:textStyle="bold"
+                android:textSize="18dp"
+                android:text="@string/phonenum"
+                android:textColor="@color/colorSoftPink"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/momanganwaditext"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:textSize="18dp"
+                    android:textStyle="bold"
+                    android:text="ANGANWADI"
+                    android:textColor="@color/colorSoftPink"/>
+                <TextView
+                    android:id="@+id/momanganwadi"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="10dp"
+                    android:textSize="18dp"
+                    android:textStyle="bold"
+                    android:text=" anganwadi"
+                    android:textColor="@color/colorSoftPink"/>
+            </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="60sp"
+                android:layout_weight="1"
+                android:textColor="@color/cardview_dark_background"
+                android:id="@+id/verfyformbutton"
+                android:text="@string/complete_verify"
+                android:background="@color/deeppurple"
+                android:textStyle="bold"/>
+            <Button
+                android:layout_height="60sp"
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:id="@+id/checkupbutton"
+                android:textColor="@color/cardview_dark_background"
+                android:text="women Checkup"
+                android:background="@color/deeppurple"
+                android:textStyle="bold"/>
+        </LinearLayout>
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+</RelativeLayout>
